@@ -8,10 +8,10 @@ Git是一款免费、开源的分布式版本控制系统，用于敏捷高效�
 
 ## 1.3 初次运行Git的配置
 当我们安装好Git后，还需要在Git bash或者terminal进行一些相关设置，以下设置仅需设置一次即可。
-
+```
 git config --global user.name "Your Name"
 git config --global user.email "email@example.com"
-
+```
 除此之外，Git还有很多设置，包括常用编辑器等，大家可以键入以下命令查看自己的设置并进行修改。
 
-git config --list
+`git config --list`
