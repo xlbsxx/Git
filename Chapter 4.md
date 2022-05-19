@@ -81,3 +81,11 @@ Git 提供了一个`grep`命令，可以很方便的从提交历史，工作目�
 ### 4.5.2 克隆含有子模块的项目
 - git submodule init 初始化本地配置文件
 - git submodule update 则从该项目中抓取所有数据并检出父项目中列出的合适的提交。
+
+### 4.5.2 更新子模块
+当子模块有更新的时候，执行` git submodule update --remote`
+
+该命令默认会更新 main 分支，如果你想设置为其他分支，可以在 `.gitmodules` 文件中设置 （这样其他人也可以跟踪它），也可以只在本地的 .git/config 文件中设置，我们在`.gitmodules`中配置它
+很明显很看到 branch 已经变化。当运行 git submodule update --remote 时，Git 默认会尝试更新 所有 子模块， 所以如果有很多子模块的话，你可以传递想要更新的子模块的名字。如 `git submodule update --remote model`
+## 4.6 打包
+通过 `git bundle`来实现
