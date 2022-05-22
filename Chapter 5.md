@@ -117,6 +117,7 @@ Git有三种环境变量：
 适用范围：只对当前项目有效
 命令选项：`git config --local`
 存储位置：`.git/config`
+
 一些常用命令：
 * 查看所有配置：
 * 配置用户名：`git config --global user.name "你的用户名"`
