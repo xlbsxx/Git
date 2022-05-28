@@ -14,3 +14,15 @@
 **Projects**：针对某一仓库的项目板（看板）
 
 **Insight**：里面包含里项目的一些数据，包括代码贡献的时间分布图，每个人的贡献量等metric
+## 探索github
+一些获取自己需要的开源项目的方式：
+
+1）GitHub Explore
+
+点击GitHub最上方的Explore或输入https://github.com/explore 即可进入。Explore板块不仅可以根据你的兴趣进行项目的推荐，而且Trending榜展示了当前综合热度最高的项目。关注Trending可以随时掌握整个Github的最新动向
+
+另： https://kamranahmed.info/githunt/ 也是一个追踪热门项目的网站
+
+2）GitHub 快捷键
+
+完整的快捷键见文档https://docs.github.com/cn/get-started/using-github/keyboard-shortcuts
